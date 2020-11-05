@@ -2,6 +2,8 @@ from random import randint
 import time
 import tkinter as tk
 
+#bonjour
+
 i = 1
 
 def essai(event=None):
