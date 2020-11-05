@@ -93,7 +93,7 @@ title = tk.Label(frame, textvariable=titlevar, font=("Courrier", 35), bg='#20202
 title.pack()
 
 instructionsvar = tk.StringVar()
-instructionsvar.set("The goal is simple : guess the mystery number\nBut careful you have only 15 seconds and 10 attemps")
+instructionsvar.set("The goal is simple : guess the mystery number between 1 and 100\nBut careful you have only 15 seconds and 10 attemps")
 instructions = tk.Label(frame, textvariable=instructionsvar, font=("Courrier", 20), bg='#202020', fg='white')
 instructions.pack()
 
