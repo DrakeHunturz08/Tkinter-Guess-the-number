@@ -115,7 +115,7 @@ info = tk.Label(frame, textvariable=infovar, font=("Courrier", 30), bg='#202020'
 
 # Ajouter une variable qui stock le nombre de tentatives
 attempsvar = tk.StringVar()
-attempsvar.set("10 attemps left")
+attempsvar.set("9 attemps left")
 
 # Afficher le nombre de tentatives
 number_attempts = tk.Label(root, textvariable=attempsvar, bg='#202020', fg='white', font=("Courrier", 20))
