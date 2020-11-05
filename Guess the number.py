@@ -76,8 +76,8 @@ root = tk.Tk()
 
 # Personnaliser la fenetre
 root.title("Guess the number")
-root.geometry("1100x400")
-root.minsize(480, 360)
+root.geometry("1000x390")
+#root.icon()
 root.resizable(width=False, height=False)
 root.config(bg='#202020')
 
@@ -98,7 +98,6 @@ instructions = tk.Label(frame, textvariable=instructionsvar, font=("Courrier", 2
 instructions.pack()
 
 # Lancer le jeu
-
 start_button = tk.Button(frame, text="Start",font=("Courrier", 30), command=timer)
 start_button.pack()
 
@@ -122,9 +121,8 @@ attempsvar.set("10 attemps left")
 number_attempts = tk.Label(root, textvariable=attempsvar, bg='#202020', fg='white', font=("Courrier", 20))
 
 # Afficher le temps restant
-
 time = tk.Label(root, text="", font=("Courrier", 20), fg='white', bg='#202020')
-time.place(x=40, y=20)
+time.place(x=20, y=20)
 
 # Ajouter un bouton close
 close = tk.Button(frame, text="Close", font=("Courrier", 25), command=root.destroy)
